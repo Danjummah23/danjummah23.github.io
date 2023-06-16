@@ -1,15 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #5577e7;
+  background-color: #ffffff;
   color: #333;
 }
 
 header {
-  background-color: #fff;
+  background-color: #5577e7;
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #fff;
 }
 
 header h1 {
@@ -26,14 +31,15 @@ nav {
 nav a {
   margin-right: 10px;
   text-decoration: none;
-  color: #333;
+  color: #fff;
   font-weight: bold;
 }
 
 .hero {
-  background-color: #ffffff;
+  background-color: #5577e7;
   text-align: center;
   padding: 10% 0;
+  color: #fff;
 }
 
 .hero-content {
@@ -49,11 +55,11 @@ nav a {
 }
 
 .container {
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 40px;
   border-radius: 20px;
   max-width: 800px;
-  margin: 30%;
+  margin: 0 auto;
 }
 
 .section-heading {
@@ -83,7 +89,7 @@ nav a {
 }
 
 .project a:hover {
-  color: rgb(48, 145, 229);
+  color: #5577e7;
   transition: all 0.1s;
 }
 
@@ -96,7 +102,7 @@ nav a {
 }
 
 footer {
-  background-color: #ffffff;
+  background-color: #fff;
   color: #060505;
   text-align: center;
   padding: 20px;
@@ -108,7 +114,7 @@ footer {
   max-width: 800px;
   border-radius: 20px;
   justify-content: center;
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 40px;
 }
 
@@ -117,12 +123,24 @@ footer {
   display: grid;
   align-items: center;
   text-align: center;
-  box-shadow: #060505;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  justify-content: center; /* Add this line */
+}
+
+.certificate img {
+  display: block; /* Add this line */
+  margin: 0 auto; /* Add this line */
 }
 
 .certificate a {
   text-decoration: none;
-  color: blue;
+  color: #5577e7;
+  margin: 40px;
+}
+
+.certificate a:hover {
+  color: #333;
 }
 
 .certificate h3 {
@@ -132,3 +150,4 @@ footer {
 .certificate p {
   margin-bottom: 0;
 }
+
