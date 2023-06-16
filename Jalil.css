@@ -19,6 +19,8 @@ header h1 {
 
 nav {
   margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 nav a {
@@ -31,7 +33,7 @@ nav a {
 .hero {
   background-color: #ffffff;
   text-align: center;
-  padding: 100px 0;
+  padding: 10% 0;
 }
 
 .hero-content {
@@ -49,11 +51,13 @@ nav a {
 .container {
   background-color: #ffffff;
   padding: 40px;
+  border-radius: 20px;
+  max-width: 800px;
+  margin: 30%;
 }
 
 .section-heading {
-  display: grid;
-  justify-content: center;
+  text-align: center;
   color: #5577e7;
   font-size: 28px;
   margin-top: 0;
@@ -62,10 +66,11 @@ nav a {
 .projects {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .project {
-  flex: 1 0 300px;
+  flex-basis: 300px;
   margin: 20px;
   padding: 20px;
   background-color: #f1f1f1;
@@ -77,11 +82,9 @@ nav a {
   color: #333;
 }
 
-.project a:hover{
+.project a:hover {
   color: rgb(48, 145, 229);
   transition: all 0.1s;
-
-
 }
 
 .project h3 {
@@ -100,17 +103,21 @@ footer {
 }
 
 .certificates {
-  margin: 40%;
+  margin: 10% auto;
   display: grid;
+  max-width: 800px;
   border-radius: 20px;
   justify-content: center;
   background-color: #ffffff;
   padding: 40px;
-  
 }
 
 .certificate {
   margin-bottom: 20px;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  box-shadow: #060505;
 }
 
 .certificate a {
