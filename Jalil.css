@@ -1,0 +1,127 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #5577e7;
+  color: #333;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 40px;
+}
+
+.section-heading {
+  display: grid;
+  justify-content: center;
+  color: #5577e7;
+  font-size: 28px;
+  margin-top: 0;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project {
+  flex: 1 0 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+}
+
+.project a {
+  text-decoration: none;
+  color: #333;
+}
+
+.project a:hover{
+  color: rgb(48, 145, 229);
+  transition: all 0.1s;
+
+
+}
+
+.project h3 {
+  margin-top: 0;
+}
+
+.project p {
+  margin-bottom: 0;
+}
+
+footer {
+  background-color: #ffffff;
+  color: #060505;
+  text-align: center;
+  padding: 20px;
+}
+
+.certificates {
+  margin: 40%;
+  display: grid;
+  border-radius: 20px;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 40px;
+  
+}
+
+.certificate {
+  margin-bottom: 20px;
+}
+
+.certificate a {
+  text-decoration: none;
+  color: blue;
+}
+
+.certificate h3 {
+  margin-top: 0;
+}
+
+.certificate p {
+  margin-bottom: 0;
+}
