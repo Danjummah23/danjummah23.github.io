@@ -1,3 +1,6 @@
+/* styles.css */
+
+/* Reset styles */
 * {
   box-sizing: border-box;
 }
@@ -108,46 +111,5 @@ footer {
   padding: 20px;
 }
 
-.certificates {
-  margin: 10% auto;
-  display: grid;
-  max-width: 800px;
-  border-radius: 20px;
-  justify-content: center;
-  background-color: #fff;
-  padding: 40px;
-}
-
-.certificate {
-  margin-bottom: 20px;
-  display: grid;
-  align-items: center;
-  text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  justify-content: center; /* Add this line */
-}
-
-.certificate img {
-  display: block; /* Add this line */
-  margin: 0 auto; /* Add this line */
-}
-
-.certificate a {
-  text-decoration: none;
-  color: #5577e7;
-  margin: 40px;
-}
-
-.certificate a:hover {
-  color: #333;
-}
-
-.certificate h3 {
-  margin-top: 0;
-}
-
-.certificate p {
-  margin-bottom: 0;
-}
+/* Add your additional styles here */
 
