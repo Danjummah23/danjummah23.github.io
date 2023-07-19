@@ -1,5 +1,4 @@
 
-
 * {
   box-sizing: border-box;
 }
@@ -12,6 +11,16 @@ body {
   color: #333;
 }
 
+a {
+  text-decoration: none;
+  color: #5577e7;
+}
+
+a:hover {
+  color: #333;
+}
+
+/* Header styles */
 header {
   background-color: #5577e7;
   padding: 20px;
@@ -32,11 +41,10 @@ nav {
 
 nav a {
   margin-right: 10px;
-  text-decoration: none;
-  color: #fff;
   font-weight: bold;
 }
 
+/* Hero styles */
 .hero {
   background-color: #5577e7;
   text-align: center;
@@ -56,6 +64,7 @@ nav a {
   margin-top: 20px;
 }
 
+/* Container styles */
 .container {
   background-color: #fff;
   padding: 40px;
@@ -71,6 +80,7 @@ nav a {
   margin-top: 0;
 }
 
+/* Projects styles */
 .projects {
   display: flex;
   flex-wrap: wrap;
@@ -85,16 +95,6 @@ nav a {
   border-radius: 20px;
 }
 
-.project a {
-  text-decoration: none;
-  color: #333;
-}
-
-.project a:hover {
-  color: #5577e7;
-  transition: all 0.1s;
-}
-
 .project h3 {
   margin-top: 0;
 }
@@ -103,13 +103,7 @@ nav a {
   margin-bottom: 0;
 }
 
-footer {
-  background-color: #fff;
-  color: #060505;
-  text-align: center;
-  padding: 20px;
-}
-
+/* Certificates styles */
 .certificates {
   margin: 10% auto;
   display: grid;
@@ -127,12 +121,19 @@ footer {
   text-align: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  justify-content: center; /* Add this line */
+  border-radius: 10px;
+  transition: transform 0.2s ease;
 }
 
 .certificate img {
-  display: block; /* Add this line */
-  margin: 0 auto; /* Add this line */
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.certificate:hover {
+  transform: scale(1.05);
 }
 
 .certificate a {
@@ -147,6 +148,18 @@ footer {
 
 .certificate h3 {
   margin-top: 0;
+}
+
+.certificate p {
+  margin-bottom: 0;
+}
+
+/* Footer styles */
+footer {
+  background-color: #fff;
+  color: #060505;
+  text-align: center;
+  padding: 20px;
 }
 
 .certificate p {
