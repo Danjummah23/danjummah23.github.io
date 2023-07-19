@@ -122,7 +122,6 @@ nav a {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
   border-radius: 10px;
-  transition: transform 0.2s ease;
 }
 
 .certificate img {
@@ -130,9 +129,11 @@ nav a {
   margin: 0 auto;
   max-width: 100%;
   border-radius: 10px;
+  transition: transform 0.2s ease;
+  cursor: pointer;
 }
 
-.certificate:hover {
+.certificate img:hover {
   transform: scale(1.05);
 }
 
@@ -160,10 +161,6 @@ footer {
   color: #060505;
   text-align: center;
   padding: 20px;
-}
-
-.certificate p {
-  margin-bottom: 0;
 }
 
 
