@@ -42,6 +42,11 @@ nav {
 nav a {
   margin-right: 10px;
   font-weight: bold;
+  color: #fff;
+}
+
+nav a:hover {
+  color: #f1f1f1;
 }
 
 /* Hero styles */
@@ -162,5 +167,6 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
 
 
